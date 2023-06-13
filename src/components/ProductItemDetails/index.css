@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.main-div {
+  display: flex;
+}
+.product-image {
+  height: 500px;
+  margin-left: 80px;
+}
+.prod-name {
+  font-size: 30px;
+}
+.prod-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content-div {
+  margin-left: 50px;
+}
+.rating-div {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 3px;
+  width: 30px;
+  height: 20px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.star-img {
+  height: 12px;
+}
+.prod-rating {
+  color: white;
+  font-size: 10px;
+}
+.review-rating {
+  display: flex;
+  align-items: center;
+}
+.prod-total-reviews {
+  font-size: 12px;
+}
+.button-dec {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.button-inc {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.inc-dec {
+  display: flex;
+  align-items: center;
+}
+.add-to-cart {
+  border-radius: 3px;
+  border-width: 0;
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px;
+}
+.similar-prod-head {
+  font-size: 30px;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+}

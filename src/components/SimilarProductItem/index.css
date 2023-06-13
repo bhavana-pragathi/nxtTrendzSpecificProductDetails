@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.similar-prod-img {
+  height: 200px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+.sim-head {
+  font-size: 12px;
+}
+.sim-brand {
+  font-size: 12px;
+}
+.sim-price {
+  font-size: 12px;
+  font-weight: bold;
+}
+.price-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sim-rating {
+  color: #ffffff;
+  font-size: 10px;
+}
